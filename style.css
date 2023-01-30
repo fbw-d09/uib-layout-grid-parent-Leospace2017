@@ -1,4 +1,78 @@
 img {
     width: 100%;
   }
+  *
+  {
+    border: 1px solid black;
+  }
   
+  .container
+  {
+    display: grid;
+    grid-template:200px 200px 200px /minmax(100px,350px) 1fr minmax(100px,350px);
+    gap: 10px;
+  }
+  .container div:first-child
+  {
+    background-image: url(./assets/football.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container div:nth-child(2)
+  {
+    background-image: url(./assets/golf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .container div:nth-child(3)
+  {
+    background-image: url(./assets/swimming.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }  
+  .container div:nth-child(4)
+  {
+    background-image: url(./assets/tennis.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }  
+  .container div:nth-child(5)
+  {
+    background-image: url(./assets/volleyball.jpeg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }  
+  .container div:nth-child(6)
+  {
+    background-image: url(./assets/racing.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }  
+  .container div:nth-child(7)
+  {
+    background-image: url(./assets/diving.jpeg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }  
+  .container div:nth-child(8)
+  {
+    background-image: url(./assets/hockey.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  } 
+  .container div:last-child
+  {
+    background-image: url(./assets/baseball.jpeg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
